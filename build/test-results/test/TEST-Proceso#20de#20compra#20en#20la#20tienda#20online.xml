@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Proceso de compra en la tienda online" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-05-03T14:58:19" hostname="CHBOGCR7KJ93" time="0.316">
+  <properties/>
+  <testcase name="Validar Compra exitosa 1 producto por cheque" classname="Proceso de compra en la tienda online" time="0.316">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'que me encuentro en la pagina web My Store' and 5 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que me encuentro en la pagina web My Store&quot;)&#10;public void queMeEncuentroEnLaPaginaWebMyStore() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;inicio sesion con usuario {string} y clave {string}&quot;)&#10;public void inicioSesionConUsuarioYClave(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;compruebo nombre usuario de inicio sesión&quot;)&#10;public void comprueboNombreUsuarioDeInicioSesión() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;agrego dos productos al carrito de compra modificando la talla&quot;)&#10;public void agregoDosProductosAlCarritoDeCompraModificandoLaTalla() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;realizo el proceso de compra por transferencia bancaria&quot;)&#10;public void realizoElProcesoDeCompraPorTransferenciaBancaria() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;valido que la compra esté realizada&quot;)&#10;public void validoQueLaCompraEstéRealizada() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'que me encuentro en la pagina web My Store' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;que me encuentro en la pagina web My Store&quot;)
+public void queMeEncuentroEnLaPaginaWebMyStore() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;inicio sesion con usuario {string} y clave {string}&quot;)
+public void inicioSesionConUsuarioYClave(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;compruebo nombre usuario de inicio sesión&quot;)
+public void comprueboNombreUsuarioDeInicioSesión() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;agrego dos productos al carrito de compra modificando la talla&quot;)
+public void agregoDosProductosAlCarritoDeCompraModificandoLaTalla() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;realizo el proceso de compra por transferencia bancaria&quot;)
+public void realizoElProcesoDeCompraPorTransferenciaBancaria() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;valido que la compra esté realizada&quot;)
+public void validoQueLaCompraEstéRealizada() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
