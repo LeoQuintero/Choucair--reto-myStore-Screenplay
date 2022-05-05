@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Proceso de compra en la tienda online" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-05-03T22:27:36" hostname="CHBOGCR7KJ93" time="17.362">
+<testsuite name="Proceso de compra en la tienda online" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-05T13:55:11" hostname="CHBOGCR7KJ93" time="25.031">
   <properties/>
-  <testcase name="Compra exitosa 2 productos modificando la talla por transferencia bancaria" classname="Proceso de compra en la tienda online" time="17.362">
-    <failure message="io.cucumber.junit.UndefinedStepException: The step 'el desea iniciar sesion con usuario &quot;leoquintero7@gmail.com&quot; y clave &quot;12345&quot;' is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;el desea iniciar sesion con usuario {string} y clave {string}&quot;)&#10;public void elDeseaIniciarSesionConUsuarioYClave(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'el desea iniciar sesion con usuario &quot;leoquintero7@gmail.com&quot; y clave &quot;12345&quot;' is undefined.
-You can implement this step using the snippet(s) below:
-
-@When(&quot;el desea iniciar sesion con usuario {string} y clave {string}&quot;)
-public void elDeseaIniciarSesionConUsuarioYClave(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-</failure>
-  </testcase>
+  <testcase name="Compra exitosa 2 productos modificando la talla por transferencia bancaria" classname="Proceso de compra en la tienda online" time="25.031"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 53739
+  <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 50138
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-may 03, 2022 5:27:47 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+may 05, 2022 8:55:20 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-may 03, 2022 5:27:47 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+may 05, 2022 8:55:20 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-may 03, 2022 5:27:47 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+may 05, 2022 8:55:20 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
 </testsuite>
