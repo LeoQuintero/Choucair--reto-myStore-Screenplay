@@ -46,6 +46,7 @@ public class CompraProductoModificadoStepDefinitios {
 
     @And("el realiza el proceso de compra por transferencia bancaria")
     public void elRealizaElProcesoDeCompraPorTransferenciaBancaria() {
+        
     }
 
     @Then("el valida que la compra este realizada")

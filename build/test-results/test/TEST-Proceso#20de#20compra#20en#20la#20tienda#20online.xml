@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Proceso de compra en la tienda online" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-05T19:07:53" hostname="CHBOGCR7KJ93" time="42.838">
+<testsuite name="Proceso de compra en la tienda online" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-05T19:51:21" hostname="CHBOGCR7KJ93" time="30.485">
   <properties/>
-  <testcase name="Compra exitosa 2 productos modificando la talla por transferencia bancaria" classname="Proceso de compra en la tienda online" time="42.838"/>
+  <testcase name="Compra exitosa 2 productos modificando la talla por transferencia bancaria" classname="Proceso de compra en la tienda online" time="30.485"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 57880
+  <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 59748
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-may 05, 2022 2:08:02 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+may 05, 2022 2:51:29 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-may 05, 2022 2:08:02 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+may 05, 2022 2:51:29 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-may 05, 2022 2:08:02 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+may 05, 2022 2:51:29 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
 </testsuite>

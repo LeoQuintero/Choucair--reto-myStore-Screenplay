@@ -25,8 +25,8 @@ public class AgregarAlCarrito implements Task {
         actor.attemptsTo(Click.on(MyStoreAccountPage.WOMAN_NAV_BUTTON),
                 Click.on(MyStoreAccountPage.DRESS_ITEM),
                 Click.on(MyStoreAccountPage.SIZE_LIST),
-                SelectFromOptions.byVisibleText(size).from(MyStoreAccountPage.SIZE_LIST) // seleccionar de la lista
-
+                SelectFromOptions.byVisibleText(size).from(MyStoreAccountPage.SIZE_LIST), // seleccionar de la lista
+                Click.on(MyStoreAccountPage.ADD_TO_CAR_BUTTON)
         );
 
     }

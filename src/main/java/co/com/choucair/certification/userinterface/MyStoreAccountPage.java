@@ -17,4 +17,8 @@ public class MyStoreAccountPage extends PageObject {
 
     public static final Target SIZE_LIST = Target.the("lista de tallas")
             .located(By.id("group_1"));
+
+    public static final Target ADD_TO_CAR_BUTTON = Target.the("botón para agregar al carrito de comprar")
+            .located(By.xpath("//*[@id='add_to_cart']/button/span"));
+
 }
