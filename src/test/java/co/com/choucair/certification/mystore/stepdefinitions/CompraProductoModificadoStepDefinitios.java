@@ -2,6 +2,7 @@ package co.com.choucair.certification.mystore.stepdefinitions;
 
 import co.com.choucair.certification.questions.Verificar;
 import co.com.choucair.certification.tasks.AbrirPagina;
+import co.com.choucair.certification.tasks.AgregarAlCarrito;
 import co.com.choucair.certification.tasks.IniciarSesion;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -40,7 +41,7 @@ public class CompraProductoModificadoStepDefinitios {
 
     @When("el agrega dos productos al carrito de compra modificando la talla")
     public void elAgregaDosProductosAlCarritoDeCompraModificandoLaTalla() {
-//        OnStage.theActorInTheSpotlight().attemptsTo((Performable) AgregarAlCarrito.producto());
+        OnStage.theActorInTheSpotlight().attemptsTo((Performable) AgregarAlCarrito.producto());
     }
 
     @And("el realiza el proceso de compra por transferencia bancaria")
