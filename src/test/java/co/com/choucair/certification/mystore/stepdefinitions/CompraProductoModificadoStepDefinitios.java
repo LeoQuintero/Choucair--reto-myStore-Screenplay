@@ -1,9 +1,10 @@
 package co.com.choucair.certification.mystore.stepdefinitions;
-
 import co.com.choucair.certification.questions.Verificar;
+import co.com.choucair.certification.questions.VerificarCompra;
 import co.com.choucair.certification.tasks.AbrirPagina;
 import co.com.choucair.certification.tasks.AgregarAlCarrito;
 import co.com.choucair.certification.tasks.IniciarSesion;
+import co.com.choucair.certification.tasks.RealizarCompra;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -13,7 +14,7 @@ import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import org.hamcrest.Matchers;
+
 
 public class CompraProductoModificadoStepDefinitios {
 
@@ -46,11 +47,15 @@ public class CompraProductoModificadoStepDefinitios {
 
     @And("el realiza el proceso de compra por transferencia bancaria")
     public void elRealizaElProcesoDeCompraPorTransferenciaBancaria() {
-        
+        OnStage.theActorInTheSpotlight().attemptsTo((Performable) RealizarCompra.pago());
+
     }
 
     @Then("el valida que la compra este realizada")
     public void elValidaQueLaCompraEsteRealizada() {
+        OnStage.theActorInTheSpotlight()
+                .should(GivenWhenThen.seeThat("Your order on My Store is complete.",
+                        VerificarCompra.toThe()));
     }
 
 }

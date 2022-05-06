@@ -1,9 +1,8 @@
 package co.com.choucair.certification.questions;
 
-import co.com.choucair.certification.userinterface.MyStoreAccountPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import net.serenitybdd.screenplay.questions.Text;
+
 
 import static co.com.choucair.certification.userinterface.MyStoreAccountPage.LBL_USER_NAME;
 
