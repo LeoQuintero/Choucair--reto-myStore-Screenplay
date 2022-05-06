@@ -1,5 +1,5 @@
 # Choucair--reto-myStore-Screenplay
-Reto de Choucair- reto myStore con patrón  Screenplay
+Reto de Choucair de automatización en la app web prueba myStore con patrón  Screenplay
 
 link de automatización: http://automationpractice.com/
 
